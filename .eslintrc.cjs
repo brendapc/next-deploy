@@ -7,16 +7,9 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:import/typescript',
     'next/core-web-vitals',
-    'plugin:tailwindcss/recommended',
     'prettier',
   ],
   plugins: ['@typescript-eslint'],
-  settings: {
-    tailwindcss: {
-      callees: ['cn', 'cva'],
-      config: 'tailwind.config.ts',
-    },
-  },
   parserOptions: {
     project: ['./tsconfig.eslint.json', './tsconfig.json'],
   },

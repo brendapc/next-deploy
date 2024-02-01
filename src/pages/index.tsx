@@ -1,8 +1,4 @@
-
-
-
 function Home() {
-
     return (
       <>
         <nav className="navbar">
@@ -126,7 +122,7 @@ function Home() {
                       <h1 className="title has-text-black is-3">Fuse Search</h1>
                       <p className="has-text-dark">To provide fast, local search of your blog, this starter template comes with a
                         pre-built Vue.js
-                        component that uses Fuse.js. Fuse.js is a "lightweight fuzzy-search library with no...</p>
+                        component that uses Fuse.js. Fuse.js is a lightweight fuzzy-search library with no...</p>
                     </div>
                   </div>
                 </div>

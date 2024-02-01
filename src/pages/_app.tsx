@@ -1,4 +1,4 @@
-import { AppProps } from "next/app";
+import type { AppProps } from "next/app";
 import "bulma/css/bulma.min.css";
 import "../styles/globals.css";
 
