@@ -11,10 +11,10 @@ function Home() {
       <>
         <Navbar/>
         <ResourceHighlight
-          resources={resources}
+          resources={resources.slice(0, 2)}
         />
         <Newsletter />
-        <ResourceList />
+        <ResourceList resources={resources.slice(2)} />
         <Footer />
       </>
     )
