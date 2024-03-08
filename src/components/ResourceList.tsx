@@ -1,6 +1,7 @@
+import type Resource from "~/types/Resource";
 
 
-const ResourceList = ({resources}) => {
+const ResourceList = ({resources}: {resources: Resource[]}) => {
 
   const renderResources = () =>
     resources.map(resource =>

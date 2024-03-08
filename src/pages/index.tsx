@@ -1,10 +1,10 @@
+import { resources } from "~/api/data";
 import Footer from "~/components/Footer";
 import Navbar from "~/components/Navbar";
 import Newsletter from "~/components/Newsletter";
 import ResourceHighlight from "~/components/ResourceHighlight";
 import ResourceList from "~/components/ResourceList";
 
-import { resources } from "~/api/data";
 
 function Home() {
     return (

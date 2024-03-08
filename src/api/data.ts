@@ -1,6 +1,6 @@
+import type Resource from "../types/Resource";
 
-
-export const resources = [
+export const resources: Resource[] = [
   {
     id: "1",
     title: "Learning Singleton Pattern",

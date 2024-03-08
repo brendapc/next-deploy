@@ -1,10 +1,12 @@
-const ResourceHighlight = ({resources}: any) => {
+import type Resource from "~/types/Resource"
+
+const ResourceHighlight = ({resources}: {resources: Resource[]}) => {
 
     return (
         <section className="hero ">
           <div className="hero-body">
             <div className="container">
-              { resources.map((resource: any)=>(
+              { resources.map((resource: Resource)=>(
                 <section className="section" key={resource.id}>
                   <div className="columns">
                     <div className="column is-8 is-offset-2">
