@@ -8,5 +8,6 @@ export default interface Resource {
   image: string;
   priority: number;
   timeToFinish: number;
-  status: string;
+  status?: string;
+  active?: boolean;
 }
