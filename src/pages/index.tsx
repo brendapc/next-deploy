@@ -24,7 +24,7 @@ function Home({ resources }: {resources: Resource[]}) {
 // function is executed on the server
 // data are always fresh
 export async function getServerSideProps() {
-  const resData = await fetch("https://next-deploy-git-split-components-brendapc.vercel.app/api/resources");
+  const resData = await fetch("http://localhost:3000/api/resources");
   const data = await resData.json();
 
   return {
